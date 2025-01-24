@@ -47,7 +47,12 @@ strong { color: orange;}
     margin: 0;
     color: #FFF;
 } 
-hr { margin:.5em 0; } 
+hr { 
+    border: 0;
+    height: 4px;
+    margin:.6em 0; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(155, 155, 100, 0.65), rgba(0, 0, 0, 0));
+} 
 
 @media (min-width:320px)  { 
     body { font: 23px/1.2 'lbtk'; word-spacing: -.2em; } 
