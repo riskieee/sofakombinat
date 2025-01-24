@@ -1,0 +1,78 @@
+* {box-sizing:border-box; padding:0; margin:0;} 
+body {  
+    color: white;
+    text-shadow: 0 0 16px black;
+    font: bold 26px/1.2 'lbtk';
+    word-spacing: -.3em;
+    text-align: center;
+    background: black;
+    transition: all 1s ease-in-out;  
+}
+/*  FONT Copyright (c) 2010, Kimberly Geswein kimberlygeswein.com 
+         https://sofakombinat.de/assets/OFL.txt */
+@font-face {
+    font-family: 'lbtk';
+    src: url(/assets/LovedbytheKing-Regular.ttf) format("truetype");
+}
+a { color: white; text-decoration: unerline; }
+a:hover { color: orange; text-decoration: underline; }
+strong { color: orange;}
+.video-container {
+    position: relative;
+    height: 100vh; 
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-container video {
+    position: absolute;
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index : -1;
+}
+#txt {
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+}
+#txt h1 {
+    color: orange;
+    font-size: 10rem;
+    margin: 0;
+    color: #FFF;
+} 
+hr { margin:.5em 0; } 
+
+@media (min-width:320px)  { 
+    body { font: 23px/1.2 'lbtk'; word-spacing: -.2em; } 
+    #txt { min-width: 10em; box-shadow: 0 10px 20px rgba(0,0,0,.6); padding: 30px; border-radius: 5px; }
+    #txt h1 {font-size: 4rem;} 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+}
+@media (min-width:480px)  { 
+    body { font: 25px/1.2 'lbtk'; word-spacing: -.3em; } 
+    #txt { min-width: 13em; box-shadow: 0 20px 30px rgba(0,0,0,.6); padding: 40px; border-radius: 10px; }
+    /* smartphones, Android phones, landscape iPhone */ 
+}
+@media (min-width:600px)  { 
+    body { font: bold 34px/1.2 'lbtk';word-spacing: -.3em; } 
+    #txt { max-width: 20em; min-width: 13em; box-shadow: 0 20px 40px rgba(0,0,0,.7); padding: 50px; border-radius: 15px; }
+    #txt h1 {font-size: 6rem;} 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { 
+    body { font: bold 42px/1.2 'lbtk';word-spacing: -.2em; } 
+    #txt { max-width: 24em; min-width: 17em; box-shadow: 0 20px 60px rgba(0,0,0,.9); padding: 60px; border-radius: 30px; }
+    #txt h1 {font-size: 10rem;} 
+    /* hi-res laptops and desktops */ 
+}
+
+
