@@ -12,7 +12,7 @@ body {
          https://sofakombinat.de/assets/OFL.txt */
 @font-face {
     font-family: 'lbtk';
-    src: url(/assets/LovedbytheKing-Regular.ttf) format("truetype");
+    src: url(assets/LovedbytheKing-Regular.ttf) format("truetype");
 }
 a { color: white; text-decoration: unerline; }
 a:hover { color: orange; text-decoration: underline; }
