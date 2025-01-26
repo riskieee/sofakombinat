@@ -33,9 +33,43 @@
               Tron&nbsp;Laser, VJing:&nbsp;<a target="_blank" href="https://digitalpraxis.de/">riskieee</a>
           </p>
       </div>
-      <video autoplay loop muted>
+      <!-- <video autoplay loop muted>
         <source src="assets/38s3-borrodisko_miniwarm.mp4" type="video/mp4">
-      </video>
+      </video> -->
+
+      <video id="background-video" autoplay loop muted>
+			<source src="none.mp4" type="video/mp4">
+		</video>
+      
     </div>
   </body>
+  
+    <!-- Random videos -->
+    <script>
+      
+    		const possibleVideos = ["assets/back-lamp_2.mp4",
+    								"assets/38s3-borrodisko_miniwarm_3.mp4",
+    								"assets/3d_boxes_4.mp4",
+    								"assets/particle_sparks_5.mp4",
+    								"assets/stone_torch_wall_6.mp4",
+    								"assets/in_planetary_orbit_7.mp4",
+    								"assets/turntable1_8.mp4",
+    								"assets/quader_in_motion_9.mp4",
+    								"assets/none.mp4"];
+    
+    		//# get a random number
+    		//# note: Array length is 2 but Array item1 starts at [0], item2 is at [1]..
+    		const randomNum = Math.floor( Math.random() * (possibleVideos.length-1) )
+    		const randomVideo = possibleVideos[ randomNum ];
+    
+    		//# access the required video tag
+    		const myVid = document.getElementById('background-video');
+    
+    		//# load and play the new "src" file
+    		myVid.src = randomVideo;
+    		myVid.load();
+    		myVid.play();
+      
+    </script>
+  
 </html>
