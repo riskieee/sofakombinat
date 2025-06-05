@@ -43,7 +43,7 @@ strong { color: orange;}
 }
 #txt h1 {
     color: orange;
-    font-size: 10rem;
+    font-size: 9rem;
     margin: 0;
     color: #FFF;
 } 
@@ -55,19 +55,19 @@ hr {
 } 
 
 @media (min-width:320px)  { 
-    body { font: 18px/1.2 'lbtk'; word-spacing: -.2em; } 
+    body { font: 18px/1.1 'lbtk'; word-spacing: -.2em; } 
     #txt { min-width: 10em; box-shadow: 0 10px 20px rgba(0,0,0,.6); padding: 30px; border-radius: 5px; }
     #txt h1 {font-size: 4rem;} 
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
     .video-container video { height: 110%; width: 320%;min-width: 50%; min-height: 50%;}
 }
 @media (min-width:480px)  { 
-    body { font: 22px/1.2 'lbtk'; word-spacing: -.3em; } 
+    body { font: 22px/1.1 'lbtk'; word-spacing: -.3em; } 
     #txt { min-width: 13em; box-shadow: 0 20px 30px rgba(0,0,0,.6); padding: 40px; border-radius: 10px; }
     /* smartphones, Android phones, landscape iPhone */ 
 }
 @media (min-width:600px)  { 
-    body { font: bold 30px/1.2 'lbtk';word-spacing: -.3em; } 
+    body { font: bold 30px/1.1 'lbtk';word-spacing: -.3em; } 
     #txt { max-width: 20em; min-width: 13em; box-shadow: 0 20px 40px rgba(0,0,0,.7); padding: 50px; border-radius: 15px; }
     #txt h1 {font-size: 6rem;} 
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
@@ -75,7 +75,7 @@ hr {
 @media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { 
-    body { font: bold 38px/1.2 'lbtk';word-spacing: -.2em; } 
+    body { font: bold 38px/1.1 'lbtk';word-spacing: -.2em; } 
     #txt { max-width: 24em; min-width: 17em; box-shadow: 0 20px 60px rgba(0,0,0,.9); padding: 60px; border-radius: 30px; }
     #txt h1 {font-size: 10rem;} 
     /* hi-res laptops and desktops */ 
