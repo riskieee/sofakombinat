@@ -16,7 +16,7 @@ body {
 }
 a { color: white; text-decoration: unerline; }
 a:hover { color: orange; text-decoration: underline; }
-strong { color: orange;}
+strong { color: orange; }
 .video-container {
     position: relative;
     height: 100vh; 
