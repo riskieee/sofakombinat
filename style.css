@@ -44,7 +44,6 @@ strong { color: orange;}
     background-color: rgba(0,0,0,0.4);
 }
 #txt h1 {
-    font-size: 9rem;
     margin: 0;
     color: #FFF;
 } 
@@ -63,8 +62,8 @@ hr {
     .video-container video { height: 110%; width: 320%;min-width: 50%; min-height: 50%;}
 }
 @media (min-width:480px)  { 
-    body { font: 18px/1.1 'lbtk'; word-spacing: -.3em; } 
-    #txt { min-width: 13em; box-shadow: 0 20px 30px rgba(0,0,0,.6); padding: 40px; border-radius: 10px; }
+    body { font: 20px/1.1 'lbtk'; word-spacing: -.3em; } 
+    #txt { min-width: 12em; box-shadow: 0 20px 30px rgba(0,0,0,.6); padding: 40px; border-radius: 10px; }
     /* smartphones, Android phones, landscape iPhone */ 
 }
 @media (min-width:600px)  { 
