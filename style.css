@@ -76,7 +76,7 @@ hr {
 @media (min-width:801px)  {
     body { font: bold 32px/1.1 'lbtk';word-spacing: -.2em; } 
     #txt { max-width: 23em; min-width: 17em; box-shadow: 0 20px 60px rgba(0,0,0,.9); padding: 60px; border-radius: 30px; }
-    #txt h1 {font-size: 8rem;} 
+    #txt h1 {font-size: 7rem;} 
     /* tablet, landscape iPad, lo-res laptops ands desktops */
 }
 @media (min-width:1025px) { 
