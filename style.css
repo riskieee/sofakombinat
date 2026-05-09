@@ -80,8 +80,8 @@ hr {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
 }
 @media (min-width:1025px) { 
-    body { font: bold 38px/1.1 'lbtk';word-spacing: 0em; } 
-    #txt { max-width: 26em; min-width: 13em; box-shadow: 0 20px 40px rgba(0,0,0,.7); padding: 50px; border-radius: 15px; }
+    body { font: bold 34px/1.1 'lbtk';word-spacing: 0em; } 
+    #txt { max-width: 24em; min-width: 12em; box-shadow: 0 20px 40px rgba(0,0,0,.7); padding: 50px; border-radius: 15px; }
     #txt h1 {font-size: 8rem;} 
     /* big landscape tablets, laptops, and desktops */
 }
