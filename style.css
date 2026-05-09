@@ -1,6 +1,6 @@
 * {box-sizing:border-box; padding:0; margin:0;} 
 body {  
-    color: white;
+    color: black;
     text-shadow: 0 0 16px black;
     font: bold 24px/1.1 'lbtk';
     word-spacing: -.3em;
@@ -80,26 +80,26 @@ hr {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
 }
 @media (min-width:1025px) { 
-    body { font: bold 34px/1.1 'lbtk';word-spacing: 0em; } 
+    body { font: bold 20px/1.1 'lbtk';word-spacing: 0em; } 
     #txt { max-width: 24em; min-width: 12em; box-shadow: 0 20px 40px rgba(0,0,0,.7); padding: 50px; border-radius: 15px; }
-    #txt h1 {font-size: 8rem;} 
+    #txt h1 {font-size: 4rem;} 
     /* big landscape tablets, laptops, and desktops */
 }
 @media (min-width:1281px) { 
     body { font: bold 32px/1.1 'lbtk';word-spacing: -.2em; } 
     #txt { max-width: 28em; min-width: 17em; box-shadow: 0 20px 60px rgba(0,0,0,.9); padding: 60px; border-radius: 30px; }
-    #txt h1 {font-size: 8rem;} 
+    #txt h1 {font-size: 5rem;} 
     /* hi-res laptops and desktops */ 
 }
 @media (min-width:1921px) { 
     body { font: bold 60px/1.1 'lbtk';word-spacing: -.2em; } 
     #txt { max-width: 28em; min-width: 17em; box-shadow: 0 20px 60px rgba(0,0,0,.9); padding: 60px; border-radius: 30px; }
-    #txt h1 {font-size: 10rem;} 
+    #txt h1 {font-size: 6rem;} 
     /* hi-res laptops and desktops */ 
 }
 @media (min-width:2161px) { 
     body { font: bold 74px/1.1 'lbtk';word-spacing: -.2em; } 
     #txt { max-width: 32em; min-width: 17em; box-shadow: 0 20px 60px rgba(0,0,0,.9); padding: 60px; border-radius: 30px; }
-    #txt h1 {font-size: 12rem;} 
+    #txt h1 {font-size: 8rem;} 
     /* hi-res laptops and desktops */ 
 }
