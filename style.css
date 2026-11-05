@@ -11,7 +11,7 @@ body {
 
 @font-face {
     font-family: 'upsb';
-    src: url(assets/ultraproxi_sb.otf) format("truetype");
+    src: url(assets/ultraproxi_sb.otf) format("opentype");
 }
 a { color: white; text-decoration: unerline; }
 a:hover { color: orange; text-decoration: underline; }
