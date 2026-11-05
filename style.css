@@ -2,17 +2,16 @@
 body {  
     color: white;
     text-shadow: 0 0 16px black;
-    font: bold 24px/1.1 'lbtk';
+    font: bold 24px/1.1 'upsb';
     word-spacing: -.3em;
     text-align: center;
     background: black;
     transition: all 1s ease-in-out;  
 }
-/*  FONT Copyright (c) 2010, Kimberly Geswein kimberlygeswein.com 
-         https://sofakombinat.de/assets/OFL.txt */
+
 @font-face {
-    font-family: 'lbtk';
-    src: url(assets/LovedbytheKing-Regular.ttf) format("truetype");
+    font-family: 'upsb';
+    src: url(assets/ultraproxi_sb.otf) format("truetype");
 }
 a { color: white; text-decoration: unerline; }
 a:hover { color: orange; text-decoration: underline; }
